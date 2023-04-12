@@ -1,9 +1,8 @@
-
-- name : demo #name is the optional here
-  hosts : all
-  tasks :
-    - name : print Hello
+- name: demo #name is the optional here
+  hosts: all
+  tasks:
+    - name: print Hello
       ansible.builtin.debug:
-        msg : Hello World
+        msg: Hello universe
 
 
