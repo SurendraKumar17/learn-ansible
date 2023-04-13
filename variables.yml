@@ -30,6 +30,7 @@
        vars: #to declare a variable
          URL: task.example.com
 
+
  - name: Declare a variable from inventory file
    hosts: all
    connection: local
