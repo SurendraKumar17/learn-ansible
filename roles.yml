@@ -1,4 +1,4 @@
-- nmae: demo on roles
+- name: demo on roles
   hosts: all
   connection: local
   roles:
