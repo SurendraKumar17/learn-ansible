@@ -34,7 +34,7 @@
    hosts: all
    connection: local
    tasks:
-     - name: ccess a variable
+     - name: Access a variable
        ansible.builtin.debug:
          msg: URL == {{URL}}
 
