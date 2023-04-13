@@ -1,6 +1,6 @@
  - name: Declare a variable at play level
    hosts: all
-   conection: local
+   connection: local
    vars: #to declare a variable
      URL : play.example.com #URL is a variable
    tasks:
