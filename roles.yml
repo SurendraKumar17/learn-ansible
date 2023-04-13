@@ -1,0 +1,5 @@
+- nmae: demo on roles
+  hosts: all
+  connection: local
+  roles:
+    -demo
