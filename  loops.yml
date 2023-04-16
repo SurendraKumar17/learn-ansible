@@ -1,0 +1,16 @@
+- name: demo on loops
+  hosts: all
+  tasks:
+    - name: print fruit name
+      debug:
+        msg: fruit name is {{ item }}
+      loop:
+        - apple
+        - banana
+
+    - name: print fruit name & quantity
+      debug:
+        msg: fruit name is {{ item.name }}, & Quantity is {{ item.quantity }}
+      loop:
+        - { name: "apple" , quantity: 100 } #map
+        - { name: "banana" , quantity: 200 }
