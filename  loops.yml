@@ -1,4 +1,4 @@
-- name: demo on loops
+- name: demo on loops #
   hosts: all
   tasks:
     - name: print fruit name
