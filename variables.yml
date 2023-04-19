@@ -18,7 +18,7 @@
        ansible.builtin.debug:
          msg: URL == {{URL}}
 
-##var_files can also be declared on task level.
+##var_files cannot declared on task level.
 
  - name: Declare a variable at task level  #Its a task level..
    hosts: all
